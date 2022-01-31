@@ -1,0 +1,96 @@
+.container {
+  height: 100vh;
+  background-color: #efefef;
+}
+
+.logoContainer {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  color: #333;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.logoStrong {
+  color: #00aeff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 15px;
+  padding: 2rem 5rem;
+  box-shadow: 2.5px 2.5px 5px rgb(204, 204, 204, .5);
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.formInput {
+  font-size: 18px;
+  outline: none;
+  padding: .5rem;
+  width: 250px;
+}
+
+.formButtonFlex {
+  display: flex;
+  gap: 1rem;
+}
+
+.btnRegister {
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+  background-color: #00aeff;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btnRegister:hover {
+  background-color: #0084ff;
+}
+
+.btnLogin {
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+  background-color: #666;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btnLogin:hover {
+  background-color: #333;
+}
+
+.finePrint {
+  font-size: 12px;
+}

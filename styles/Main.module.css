@@ -1,0 +1,21 @@
+.container {
+    height: 100vh;
+    background-color: #efefef;
+  }
+
+.navbar {
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+.logo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .logoStrong {
+    color: #00aeff;
+    font-size: 24px;
+    font-weight: 800;
+  }
