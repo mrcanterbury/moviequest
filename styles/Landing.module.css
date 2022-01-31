@@ -17,7 +17,7 @@
 }
 
 .logoStrong {
-  color: #00aeff;
+  color: #0084ff;
   font-size: 48px;
   font-weight: 800;
 }
@@ -62,7 +62,7 @@
 .btnRegister {
   margin-top: .5rem;
   padding: .5rem 1rem;
-  background-color: #00aeff;
+  background-color: #0084ff;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -72,7 +72,7 @@
 }
 
 .btnRegister:hover {
-  background-color: #0084ff;
+  background-color: #00aeff;
 }
 
 .btnLogin {

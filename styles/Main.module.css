@@ -6,16 +6,81 @@
 .navbar {
     width: 100%;
     padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     color: #333;
     font-size: 24px;
     font-weight: 400;
-  }
-  
-  .logoStrong {
-    color: #00aeff;
+    padding: 0 1rem;
+}
+
+.logoStrong {
+    color: #0084ff;
     font-size: 24px;
     font-weight: 800;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+}
+
+.navItem {
+    padding: 0 1rem;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchContainer {
+    display: flex;
+    gap: 1rem;
+    padding: 4rem;
+}
+
+.searchBoxContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.mainSearch {
+    font-size: 18px;
+    outline: none;
+    padding: .5rem;
+    width: 250px;
+}
+
+.mainSearchBtn {
+    padding: .5rem 1rem;
+    background-color: #0084ff;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
   }
+  
+  .mainSearchBtn:hover {
+    background-color: #00aeff;
+  }
+
+  .resultsContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+  }
+
+  .resultsContainer > div {
+      padding: 2rem;
+      background-color: #ccc;
+  }
+
